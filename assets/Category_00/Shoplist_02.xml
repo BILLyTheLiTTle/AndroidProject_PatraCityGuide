@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Αθλητισμός / Αθλητικά Είδη -->
+<shops>
+	<shop>
+		<name>SportsCenter</name>
+		<street>Μουρούζη 11 - Πάτρα</street>
+		<tel>2610438143</tel><!--  -->
+		<mob>6936905594</mob><!--  -->
+		<fax>2610438143</fax>
+		<site>http://www.e-sportscenter.gr</site>
+		<email>sports_center9@yahoo.gr</email>
+		<map>38.252134,21.740152</map>
+	</shop>
+</shops>

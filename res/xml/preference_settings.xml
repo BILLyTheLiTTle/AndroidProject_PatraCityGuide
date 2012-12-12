@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="using_preferences_for_settings"
+    android:title="@string/PreferenceScreenTotal_title"
+    android:summary="@string/PreferenceScreenTotal_summary">
+	<PreferenceCategory
+		xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="wireless_networks_settings"
+        android:title="@string/PreferenceCategoryWIFI_title"
+    	android:summary="@string/PreferenceCategoryWIFI_summary">
+		<ListPreference
+        	android:key="wireless_list_preference"
+            android:title="@string/ListPreferenceWIFI_title"
+            android:summary="@string/ListPreferenceWIFI_summary"
+            android:entries="@array/entries_wireless_list_preference"
+            android:entryValues="@array/entryvalues_wireless_list_preference"
+            android:dialogTitle="@string/ListPreferenceWIFI_dialogTitle" 
+            android:negativeButtonText="@string/ListPreference_negativeButtonTex"
+            android:defaultValue="0"/>
+      	<PreferenceScreen
+                android:title="@string/PreferenceScreenWIFI_title"
+                android:summary="@string/PreferenceScreenWIFI_summary">
+				<intent android:action="android.settings.WIFI_SETTINGS"/>
+		</PreferenceScreen>
+   	</PreferenceCategory>
+	<PreferenceCategory
+		xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="location_settings"
+        android:title="@string/PreferenceCategoryGPS_title"
+    	android:summary="@string/PreferenceCategoryGPS_summary">
+		<ListPreference
+        	android:key="gps_list_preference"
+            android:title="@string/ListPreferenceGPS_title"
+            android:summary="@string/ListPreferenceGPS_summary"
+            android:entries="@array/entries_gps_list_preference"
+            android:entryValues="@array/entryvalues_gps_list_preference"
+            android:dialogTitle="@string/ListPreferenceGPS_dialogTitle" 
+            android:negativeButtonText="@string/ListPreference_negativeButtonTex"
+            android:defaultValue="0"/>
+            <PreferenceScreen
+                android:title="@string/PreferenceScreenGPS_title"
+                android:summary="@string/PreferenceScreenGPS_summary">
+				<intent android:action="android.settings.LOCATION_SOURCE_SETTINGS"/>
+		</PreferenceScreen>
+	</PreferenceCategory>
+</PreferenceScreen>

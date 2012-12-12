@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="custom_text_white_color">#ffffff</color>
+	<color name="custom_divider_color">#ffffff</color>
+	<color name="custom_text_black_color">#000000</color>
+
+	<style name="CustomTheme" parent="android:Theme.Light">
+    	<item name="android:windowBackground">@drawable/theme</item>
+	</style>
+	
+	<style name="ListThemeScreen" parent="@android:style/Widget.ListView">
+    	<item name="android:windowBackground">@drawable/theme</item>
+    	<item name="android:textColor">@color/custom_text_white_color</item>
+	</style>
+	
+	<style name="ListThemeWindow" parent="@android:style/Widget.ListView">
+    	<item name="android:windowBackground">@drawable/theme</item>
+    	<item name="android:textColor">@color/custom_text_black_color</item>
+	</style>
+
+</resources>

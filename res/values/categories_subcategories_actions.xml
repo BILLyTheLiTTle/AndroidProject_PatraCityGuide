@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<!-- Used in GuideActivity/action_spinner.java -->
+	<string-array name="actions">
+        <item>@string/show_all</item><!-- 0 -->
+        <item>@string/find</item><!-- 1 -->
+        <item>@string/nearest_shops</item><!-- 2 -->
+        <item>@string/favorite_shops</item><!-- 3 -->
+    </string-array>
+    
+    <!-- Used in GuideActivity/category_spinner.java -->
+    <!-- If changes happen in this array you should:
+    		1. Change the name (_Number) of the appropriate subcategory. 
+    			The number is in the comment near the category, must be 
+    			the same as the subcategory_Number in the subcategory 
+    			name below.
+   			2. Check the source code for categorySpinner in the GuideActivity. 
+   				It should be ok unless you add / remove data to the array. 
+   				Then modify the 'if' block (add / remove any 'else if' block) 
+   				of the categorySpinner to point	to the right categories. 
+   				At the time of this writing you should check the code at the:
+   				-updateSubcategorySpinner method
+			3. Check the source code for subcategorySpinner 
+			   in the GuideActivity.
+				It should be ok unless you add / remove data to the array. 
+				Then modify the 'if' block of the subcategorySpinner to 
+				point to the right subcategories. At the time of this 
+				writing you should check the code at the:
+				-prepareData method
+				STEP 3 IS USELESS
+			4. You must change the name to the xml files and folders to 
+				the assets folder. You must change the numbers' part at 
+				the folder and the inside xml files.
+			5. Change the contents of each zzzShops_XX_XX. 
+			 	You must change the value of the name in each Shops_XX_XX 
+			 	xml file. -->
+    <string-array name="categories">
+        <item>Αθλητισμός</item><!-- 00 --><!-- subcategory_00 -->
+        <item>Αυτοκίνητο</item><!-- 01 --><!-- subcategory_01 and so on -->
+        <item>Βιομηχανίες - Βιοτεχνίες</item><!-- 02 -->
+        <item>Γάμος - Βάπτιση</item><!-- 03 -->
+        <item>Διασκέδαση</item><!-- 04 -->
+        <item>Διατροφή</item><!-- 05 -->
+        <item>Εκπαίδευση-Βιβλία</item><!-- 06 -->
+        <item>Εμπορικά Καταστήματα</item><!-- 07 -->
+        <item>Ενέργεια</item><!-- 08 -->
+        <item>Κατασκευές - Δόμηση - Εργαλεία</item><!-- 09 -->
+        <item>Κοινωνικές Υπηρεσίες</item><!-- 10 -->
+        <item>Μ.Μ.Ε.</item><!-- 11 -->
+        <item>Μοτοσυκλέτα</item><!-- 12 -->
+        <item>Ομορφιά</item><!-- 13 -->
+        <item>Παροχής Υπηρεσιών</item><!-- 14 -->
+        <item>Σπίτι-Γραφείο</item><!-- 15 -->
+        <item>Τεχνολογία - Επικοινωνίες</item><!-- 16 -->
+        <item>Τουρισμός</item><!-- 17 -->
+        <item>Υγεία-Ιατροί</item><!-- 18 -->
+    </string-array>
+    
+    <!-- Used in GuideActivity/subcategory_spinner.java (all the below)-->
+    <!-- If anything changed in one of the following arrays you must change 
+    		the previous steps from STEP 3 and below. -->
+    		
+ 	<!-- Αθλητισμός -->
+    <string-array name="subcategory_00">
+        <item>Extreme Sports</item><!-- 00 -->
+        <item>Αθλητικά Portals</item><!-- 01 -->
+        <item>Αθλητικά Είδη</item><!-- 02 -->
+        <item>Αθλητικά Σωματεία</item><!-- 03 -->
+        <item>Γήπεδα 5x5</item><!-- 04 -->
+        <item>Γήπεδα Μπάσκετ</item><!-- 05 -->
+        <item>Γυμναστήρια</item><!-- 06 -->
+        <item>Κολύμβηση</item><!-- 07 -->
+        <item>Στίβος</item><!-- 08 -->
+        <item>Σχολές Καταδύσεων</item><!-- 09 -->
+        <item>Τέννις Club</item><!-- 10 -->
+    </string-array>
+    <!-- Αυτοκίνητο -->
+    <string-array name="subcategory_01">
+        <item>Αγορά - Πώληση Μεταχειρισμένων</item><!-- 00 -->
+        <item>Ανταλλακτικά</item><!-- 01 -->
+        <item>Αντιπροσωπείες</item><!-- 02 -->
+        <item>Ελαστικά</item><!-- 03 -->
+        <item>Ενοικιάσεις Αυτοκινήτων</item><!-- 04 -->
+        <item>Πλυντήρια - Λιπαντήρια</item><!-- 05 -->
+        <item>Πρατήρια Βενζίνης</item><!-- 06 -->
+        <item>Ραδιομαγνητόφωνα-Συναγερμοί-Αξεσουάρ</item><!-- 07 -->
+        <item>Συνεργεία</item><!-- 08 -->
+        <item>Σχολές Οδηγών</item><!-- 09 -->
+        <item>Ταπετσαρίες</item><!-- 10 -->
+        <item>Φανοποιεία - Βαφές</item><!-- 11 -->
+    </string-array>
+    <!-- Βιομηχανίες - Βιοτεχνίες -->
+    <string-array name="subcategory_02">
+        <item>Βιοτεχνίες Έτοιμων Ενδυμάτων</item><!-- 00 -->
+        <item>Βιοτεχνίες Μετάλλου</item><!-- 01 -->
+        <item>Βιοτεχνίες Τροφίμων - Ποτών</item><!-- 02 -->
+        <item>Βιοτεχνίες Χαρτιού</item><!-- 03 -->
+        <item>Βιοτεχνίες Χημικών</item><!-- 04 -->
+        <item>Εξοπλισμός Καταστημάτων</item><!-- 05 -->
+        <item>Κεραμικά </item><!-- 06 -->
+    </string-array>
+    <!-- Γάμος - Βάπτιση -->
+    <string-array name="subcategory_03">
+        <item>Είδη γάμου-βάπτισης</item><!-- 00 -->
+        <item>Φωτογραφίσεις - Βιντεοσκοπήσεις</item><!-- 01 -->
+    </string-array>
+    <!-- Διασκέδαση -->
+    <string-array name="subcategory_04">
+        <item>Ιnternet Cafe</item><!-- 00 -->
+        <item>Night Clubs</item><!-- 01 -->
+        <item>Video - DVD Clubs</item><!-- 02 -->
+        <item>Κέντρα Διασκεδάσεως</item><!-- 03 -->
+        <item>Καφενεία</item><!-- 04 -->
+        <item>Καφετέριες - Bar</item><!-- 05 -->
+        <item>Κινηματογράφοι</item><!-- 06 -->
+        <item>Παιδικά Πάρτυ</item><!-- 07 -->
+        <item>Παιδότοποι - Play Grounds</item><!-- 08 -->
+        <item>Ταβέρνες-Εστιατόρια </item><!-- 09 -->
+    </string-array>
+    <!-- Διατροφή -->
+    <string-array name="subcategory_05">
+        <item>Catering</item><!-- 00 -->
+        <item>Fast Food</item><!-- 01 -->
+        <item>Αρτοποιΐα</item><!-- 02 -->
+        <item>Ζαχαροπλαστεία</item><!-- 03 -->
+        <item>Κατεψυγμένα Προιόντα</item><!-- 04 -->
+        <item>Οικολογικά Προϊόντα</item><!-- 05 -->
+        <item>Πιτσαρίες</item><!-- 06 -->
+        <item>Ταβέρνες - Εστιατόρια</item><!-- 07 -->
+        <item>Ψησταριές - Οβελιστήρια</item><!-- 08 -->
+    </string-array>
+    <string-array name="subcategory_06">
+    <!-- Εκπαίδευση-Βιβλία -->
+        <item>Βιβλιοπωλεία</item><!-- 00 -->
+        <item>IEK KEK - Κέντρα Επαγγελματικής Κατάρτισης</item><!-- 01 -->
+        <item>Ιδιωτικές Σχολές</item><!-- 02 -->
+        <item>Κέντρα Ξένων Γλωσσών</item><!-- 03 -->
+        <item>Μελετητήρια Πρωτοβάθμιας Εκπαίδευσης - Δημοτικό</item><!-- 04 -->
+        <item>Παιδαγωγοί</item><!-- 05 -->
+        <item>Παιδικοί Σταθμοί</item><!-- 06 -->
+        <item>Σχολές Καλών Τεχνών</item><!-- 07 -->
+        <item>Σχολές Οδηγών</item><!-- 08 -->
+        <item>Σχολές Πληροφορικής</item><!-- 09 -->
+        <item>Σχολές Χορού</item><!-- 10 -->
+        <item>Φροντιστήρια Μ.Εκπαίδευσης-Ιδιαίτερα Μαθήματα</item><!-- 11 -->
+        <item>Φωτοαντίγραφα - Βιβλιοδεσίες</item><!-- 12 -->
+    </string-array>
+    <!-- Εμπορικά Καταστήματα -->
+    <string-array name="subcategory_07">
+        <item>Accessories-Αξεσουάρ Μόδας</item><!-- 00 -->
+        <item>Pet Shop</item><!-- 01 -->
+        <item>Super Market</item><!-- 02 -->																				
+        <item>Αθλητικά Είδη - Ενδύματα</item><!-- 03 -->
+        <item>Ανθοπωλεία</item><!-- 04 -->
+        <item>Γεωργικά Μηχανήματα</item><!-- 05 -->
+        <item>Δερμάτινα - Ταξιδίου Είδη</item><!-- 06 -->
+        <item>Δίσκοι - Κασέτες - CD</item><!-- 07 -->
+        <item>Είδη γάμου-βάπτισης</item><!-- 08 -->
+        <item>Είδη Ζωγραφικής - Hobby</item><!-- 09 --> 
+        <item>Είδη Υγιεινής</item><!-- 10 -->      
+        <item>Ενδύματα Ενδύματα Ανδρικά - Γυναικεία</item><!-- 11 --> 
+        <item>Ενδύματα Βρεφικά - Παιδικά</item><!-- 12 -->      							
+        <item>Επιδιορθώσεις Ενδυμάτων</item><!-- 13 -->
+        <item>Επιδιορθώσεις Υποδυμάτων</item><!-- 14 -->
+        <item>Έπιπλα Βεράντας - Κήπου</item><!-- 15 -->
+        <item>Έπιπλα Γενικά</item><!-- 16 -->
+        <item>Έπιπλα Γραφείου</item><!-- 17 -->
+        <item>Έπιπλα Κουζίνας</item><!-- 18 -->
+        <item>Έπιπλα Ξενοδοχείου</item><!-- 19 -->
+        <item>Έπιπλα Παιδικά - Νεανικά</item><!-- 20 -->
+        <item>Έργα Τέχνης - Κορνίζες</item><!-- 21 -->
+        <item>Εσώρουχα</item><!-- 22 -->
+        <item>Ηλεκτρικές Συσκευές</item><!-- 23 -->
+        <item>Ηλεκτρολογικά είδη</item><!-- 24 -->
+        <item>Ιχθυοπωλεία</item><!-- 25 -->
+        <item>Κάβες</item><!-- 26 -->
+        <item>Καλλυντικά - Αρώματα</item><!-- 27 -->
+        <item>Κοσμήματα - Ρολόγια</item><!-- 28 -->
+        <item>Κρεοπωλεία</item><!-- 29 -->
+        <item>Κρύσταλλα - Τζάμια - Καθρέπτες</item><!-- 30 -->
+        <item>Λευκά - Προίκας Είδη</item><!-- 31 -->
+        <item>Μουσικά Όργανα</item><!-- 32 -->
+        <item>Οικολογικά Προϊόντα</item><!-- 33 -->
+        <item>Οπτικά</item><!-- 34 -->
+        <item>Παγοποιία</item><!-- 35 -->
+        <item>Παιχνίδια</item><!-- 36 -->
+        <item>Παραδοσιακές Ενδυμασίες</item><!-- 37 -->
+        <item>Πολυκαταστήματα</item><!-- 38 -->
+        <item>Συστήματα ήχου - Ενοικιάσεις</item><!-- 39 -->
+        <item>Υποδήματα</item><!-- 40 -->
+        <item>Υφάσματα</item><!-- 41 -->
+        <item>Φυτώρια - Φυτοφάρμακα</item><!-- 42 -->
+        <item>Φωτογραφεία</item><!-- 43 -->
+        <item>Χαλιά - Μοκέτες</item><!-- 44 -->
+    </string-array>
+    <!-- Ενέργεια -->
+    <string-array name="subcategory_08">
+        <item>Ανανεώσιμες Πηγές Ενέργειας</item><!-- 00 -->
+        <item>Βιοκαύσιμα</item><!-- 01 -->
+    </string-array>
+    <!-- Κατασκευές - Δόμηση - Εργαλεία -->
+    <string-array name="subcategory_09">
+        <item>Real Estate - Μεσιτικά</item><!-- 00 -->
+        <item>Ανελκυστήρες Εγκατ. - Συντηρήσεις</item><!-- 01 -->
+        <item>Αρχιτέκτονες</item><!-- 02 -->
+        <item>Βιομηχανικά Είδη - Εργαλεία</item><!-- 03 -->
+        <item>Γύψινες Κατασκευές</item><!-- 04 -->
+        <item>Δομικά Υλικά</item><!-- 05 -->
+        <item>Εγκαταστάσεις Φωτοβολταϊκών</item><!-- 06 -->
+        <item>Ελαιοχρωματιστές</item><!-- 07 -->
+        <item>Εξοπλισμός Επαγγελματικών Χώρων</item><!-- 08 -->
+        <item>Ηλεκτρολόγοι - Ηλεκτρολογικές Εγκαταστάσεις</item><!-- 09 -->
+        <item>Θέρμανση - Ψύξη - Κλιματισμός</item><!-- 10 -->
+        <item>Καθαρισμός Κτιρίων - Τζαμιών</item><!-- 11 -->
+        <item>Κατασκευαστικές Εταιρίες</item><!-- 12 -->
+        <item>Μηχανήματα</item><!-- 13 -->
+        <item>Μηχανολόγοι Μηχανικοί</item><!-- 14 -->
+        <item>Μονώσεις</item><!-- 15 -->
+        <item>Ξυλεία</item><!-- 16 -->
+        <item>Οικοδομικές Επιχειρήσεις</item><!-- 17 -->
+        <item>Οικοδομικές Εργασίες / Εργολαβίες</item><!-- 18 -->
+        <item>Πολιτικοί Μηχανικοί</item><!-- 19 -->
+        <item>Σίδηρος-Αλουμίνιο</item><!-- 20 -->
+        <item>Υδραυλικοί</item><!-- 21 -->
+    </string-array>
+    <!-- Κοινωνικές Υπηρεσίες -->
+    <string-array name="subcategory_10">
+        <item>Λογοθεραπεία</item><!-- 00 -->
+        <item>Σύλλογοι</item><!-- 01 -->
+    </string-array>
+    <!-- Μ.Μ.Ε. -->
+    <string-array name="subcategory_11">
+        <item>Εφημερίδες</item><!-- 00 -->
+        <item>Ηλεκτρονικός Τύπος</item><!-- 01 -->
+        <item>Περιοδικά</item><!-- 02 -->
+        <item>Ραδιοφωνικοί Σταθμοί</item><!-- 03 -->
+        <item>Τηλεοπτικοί Σταθμοί</item><!-- 04 -->
+        <item>Τηλεοπτικές Παραγωγές</item><!-- 05 -->
+    </string-array>    
+    <!-- Μοτοσυκλέτα -->
+    <string-array name="subcategory_12">
+        <item>Αγορά - Πώληση Μεταχειρισμένων</item><!-- 00 -->
+        <item>Ανταλλακτικά</item><!-- 01 -->
+        <item>Αντιπροσωπείες</item><!-- 02 -->
+        <item>Είδη - Αξεσουάρ</item><!-- 03 -->
+        <item>Ελαστικά</item><!-- 04 -->
+        <item>Ενοικιάσεις μοτοσυκλετών</item><!-- 05 -->
+        <item>Πλυντήρια - Λιπαντήρια</item><!-- 06 -->
+        <item>Πρατήρια Βενζίνης</item><!-- 07 -->
+        <item>Συνεργεία</item><!-- 08 -->
+        <item>Σχολές Οδηγών</item><!-- 09 -->
+        <item>Φανοποιεία - Βαφές</item><!-- 10 -->
+    </string-array> 
+    <!-- Ομορφιά -->
+    <string-array name="subcategory_13">
+        <item>Accessories-Αξεσουάρ Μόδας</item><!-- 00 -->
+        <item>Γυμναστήρια</item><!-- 01 -->
+        <item>Καλλυντικά - Αρώματα</item><!-- 02 -->
+        <item>Κέντρα αδυνατίσματος</item><!-- 03 -->
+        <item>Κέντρα Αισθητικής</item><!-- 04 -->
+        <item>Κομμωτήρια</item><!-- 05 -->
+        <item>Μανικιούρ - Πεντικιούρ</item><!-- 06 -->
+    </string-array>
+    <!-- Παροχής Υπηρεσιών -->
+    <string-array name="subcategory_14">
+        <item>Courier</item><!-- 00 -->
+        <item>Real Estate - Μεσιτικά</item><!-- 01 -->
+        <item>Ασφαλιστικές Εταιρίες</item><!-- 02 -->
+        <item>Βιοτεχνίες Ενδυμάτων</item><!-- 03 -->
+        <item>Γραφεία ευρέσεως εργασίας</item><!-- 04 -->
+        <item>Γραφεία τελετών</item><!-- 05 -->
+        <item>Διαφημιστικές Εταιρίες</item><!-- 06 -->
+        <item>Δικηγόροι</item><!-- 07 -->
+        <item>Εκδοτικοί Οίκοι</item><!-- 08 -->
+        <item>Κλειδαράδες</item><!-- 09 -->
+        <item>Λογιστικά - Φοροτεχνικά</item><!-- 10 -->
+        <item>Μεταφορικές Εταιρίες</item><!-- 11 -->
+        <item>Μεταφράσεις - Μεταφραστικά Κέντρα</item><!-- 12 -->
+        <item>Παιδικά Πάρτυ</item><!-- 13 -->
+        <item>Συμβολαιογράφοι</item><!-- 14 -->
+        <item>Σύμβουλοι Επιχειρήσεων</item><!-- 15 -->
+        <item>Συνεργεία Καθαρισμού</item><!-- 16 -->
+        <item>Συστήματα ασφαλείας</item><!-- 17 -->
+        <item>Ταξιδιωτικά Γραφεία</item><!-- 18 -->
+        <item>Υπηρεσίες Internet-Λογισμικό</item><!-- 19 -->
+        <item>Φωτογραφία - Studio</item><!-- 20 -->
+        <item>Χρηματιστηριακές</item><!-- 21 -->
+        <item>Χρηματοοικονομικοί Σύμβουλοι</item><!-- 22 -->
+    </string-array>
+    <!-- Σπίτι-Γραφείο -->
+    <string-array name="subcategory_15">
+        <item>Real Estate - Μεσιτικά</item><!-- 00 -->
+        <item>Αυτόματοι Πωλητές</item><!-- 01 -->
+        <item>Είδη Οικιακής Χρήσεως</item><!-- 02 -->
+        <item>Ελαιοχρωματιστές</item><!-- 03 -->
+        <item>Έπιπλα Γενικά</item><!-- 04 -->
+        <item>Έπιπλα Γραφείου</item><!-- 05 -->
+        <item>Έπιπλα Κουζίνας</item><!-- 06 -->
+        <item>Έργα Τέχνης - Κορνίζες</item><!-- 07 -->
+        <item>Ηλεκτρικά Είδη</item><!-- 08 -->
+        <item>Κλιματισμός</item><!-- 09 -->
+        <item>Λευκά Είδη</item><!-- 10 -->
+        <item>Συνεργεία Καθαρισμού</item><!-- 11 -->
+        <item>Συστήματα Ασφαλείας</item><!-- 12 -->
+        <item>Τέντες - Εξοπλισμοί</item><!-- 13 -->
+        <item>Χαλιά Μοκέτες</item><!-- 14 -->
+    </string-array>
+    <!-- Τεχνολογία - Επικοινωνίες -->
+    <string-array name="subcategory_16">
+        <item>Software - Λογισμικά</item><!-- 00 -->
+        <item>Κινητή Τηλεφωνία</item><!-- 01 -->
+        <item>Υπηρεσίες Internet</item><!-- 02 -->
+        <item>Υπολογιστές - Περιφερειακά</item><!-- 03 -->
+    </string-array>
+    <!-- Τουρισμός -->
+    <string-array name="subcategory_17">
+        <item>Είδη Ταξιδίου</item><!-- 00 -->
+        <item>Ενοικιαζόμενα Δωμάτια</item><!-- 01 -->
+        <item>Ενοικιάσεις αυτοκινήτων</item><!-- 02 -->
+        <item>Ενοικιάσεις μοτοσυκλετών</item><!-- 03 -->
+        <item>Ξενοδοχεία</item><!-- 04 -->
+        <item>Ταξιδιωτικά Γραφεία</item><!-- 05 -->
+    </string-array>
+    <!-- Υγεία-Ιατροί -->
+    <string-array name="subcategory_18">
+        <item>Ακτινολόγοι - Ακτινολογικά Εργαστήρια</item><!-- 00 -->
+        <item>Ανδρολογικά - Ουρολογικά Κέντρα</item><!-- 01 -->
+        <item>Γαστρεντερολόγοι</item><!-- 02 -->
+        <item>Γυναικολόγοι - Μαιευτήρες</item><!-- 03 -->
+        <item>Δερματολόγοι - Αφροδισιολόγοι</item><!-- 04 -->
+        <item>Διαγνωστικά Κέντρα</item><!-- 05 -->
+        <item>Ενδοκρινολόγοι</item><!-- 06 -->
+        <item>Καρδιολόγοι</item><!-- 07 -->
+        <item>Κτηνίατροι</item><!-- 08 -->
+        <item>Κυτταρολόγοι</item><!-- 09 -->
+        <item>Λογοθεραπεία</item><!-- 10 -->
+        <item>Μικροβιολόγοι</item><!-- 11 -->
+        <item>Νευρολόγοι - Ψυχίατροι</item><!-- 12 -->
+        <item>Νευροχειρούργοι</item><!-- 13 -->
+        <item>Νεφρολόγοι</item><!-- 14 -->
+        <item>Οδοντίατροι</item><!-- 15 -->
+        <item>Ορθοπεδικοί</item><!-- 16 -->
+        <item>Ουρολόγοι</item><!-- 17 -->
+        <item>Οφθαλμίατροι</item><!-- 18 -->
+        <item>Παθολόγοι</item><!-- 19 -->
+        <item>Παιδίατροι</item><!-- 20 -->
+        <item>Παιδοκαρδιολόγοι</item><!-- 21 -->
+        <item>Παιδοχειρούργοι</item><!-- 22 -->
+        <item>Παιδοψυχίατροι</item><!-- 23 -->
+        <item>Πλαστικοί Χειρουργοί</item><!-- 24 -->
+        <item>Πνευμονολόγοι - Φυματιολόγοι</item><!-- 25 -->
+        <item>Ρευματολόγοι</item><!-- 26 -->
+        <item>Φαρμακεία</item><!-- 27 -->
+        <item>Χειρούργοι</item><!-- 28 -->
+        <item>Ωτορινολαριγγολόγοι</item><!-- 29 -->
+    </string-array>
+</resources>

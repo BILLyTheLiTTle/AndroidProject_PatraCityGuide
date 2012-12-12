@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This xml file is used for the default values. Each time the user 
+		selects a category and subcategory that contains no data this 
+		xml file is loaded and is shown to him/her. -->
+<shops>
+	<shop>
+		<name>Επωνυμία Καταστήματος</name>
+		<street>Διεύθυνση Καταστήματος</street>
+		<tel>Τηλέφωνο Επικοινωνίας</tel>
+		<mob>Κινητό Τηλέφωνο</mob>
+		<fax>Φαξ Επικοινωνίας</fax>
+		<site>Ιστότοπος Καταστήματος</site>
+		<email>E-mail Επικοινωνίας</email>
+		<map>x,x</map>
+	</shop>
+</shops>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="intro">Καλώς ήρθατε στον Επιχειρηματικό Οδηγό μας. 
+    			Ευχαριστουμε που χρησιμοποιείται τον Οδηγό μας για Android. 
+    			Ελπίζουμε να σας φανεί εύχρηστη και χρήσιμη εφαρμογή.</string>
+    <string name="thanks">Φιλικά,</string>
+    <string name="PCG_Team">Patra City Guide Team</string>
+    <string name="app_name">Πάτρα-Οδηγός Πόλης</string>
+    <string name="show_all">Προβολή καταστημάτων</string>
+    <string name="find">Εύρεση καταστήματος</string>
+    <string name="shortcut">Δημιουργία συντόμευσης</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="help">Βοήθεια</string>
+    <string name="nearest_shops">Πλησιέστερα καταστήματα</string>
+    <string name="favorite_shops">Αγαπημένα καταστήματα</string>
+    <string name="more">Περισσότερα</string>
+    <string name="select_category">Επιλέξτε κατηγορία:</string>
+    <string name="select_subcategory">Επιλέξτε υποκατηγορία:</string>
+    <string name="select_action">Επιλέξτε ενέργεια:</string>
+    <string name="find_for">Εύρεση του...</string>
+    <string name="GuideActivity_title">Είδος καταστήματος - Ενέργεια</string>
+    <string name="ShopsListActivity_title">Καταστήματα</string>
+    <!-- ShopDetailsActivity strings -->
+    <string name="address"><b><u>ΔΙΕΥΘΥΝΣΗ</u></b></string>
+    <string name="telNmob"><b><u>ΤΗΛΕΦΩΝΑ ΕΠΙΚΟΙΝΩΝΙΑΣ</u></b></string>
+    <string name="fax"><b><u>FAX ΕΠΙΚΟΙΝΩΝΙΑΣ</u></b></string>
+    <string name="site"><b><u>ΙΣΤΟΤΟΠΟΣ</u></b></string>
+    <string name="email"><b><u>E-MAIL</u></b></string>
+    <!-- SettingsPreference strings -->
+    <string name="PreferenceScreenTotal_title">Ρυθμίσεις</string>
+    <string name="PreferenceScreenTotal_summary">Εφαρμογή ρυθμίσεων για την εφαρμογή</string>
+    <string name="PreferenceCategoryWIFI_title">Ρύθμιση ασύρματων δικτύων</string>
+    <string name="PreferenceCategoryWIFI_summary">Ρύθμιση δικτυών για πρόσβαση στο Διαδίκτυο</string>
+    <string name="ListPreferenceWIFI_title">Ασύρματα Δίκτυα</string>
+    <string name="ListPreferenceWIFI_summary">Ρύθμιση δικτύων για πρόσβαση στο Διαδίκτυο</string>
+    <string name="ListPreferenceWIFI_dialogTitle">Ρύθμιση ασύρματων δικτύων</string>
+    <string name="ListPreference_negativeButtonTex">Άκυρο</string>
+    <string name="PreferenceScreenWIFI_title">Εμφάνισε την οθόνη ρυθμίσεων για το WIFI</string>
+    <string name="PreferenceScreenWIFI_summary">Εμφανίζει την οθόνη ρυθμίσεων του συστήματος για το WIFI</string>
+    <string name="PreferenceCategoryGPS_title">Ρύθμιση τοποθεσίας</string>
+    <string name="PreferenceCategoryGPS_summary">Ρύθμιση GPS για χρήση της τρέχουσας τοποθεσίας</string>
+    <string name="ListPreferenceGPS_title">Τρέχουσα τοποθεσία</string>
+    <string name="ListPreferenceGPS_summary">Ρύθμιση GPS για χρήση της τρέχουσας τοποθεσίας</string>
+    <string name="ListPreferenceGPS_dialogTitle">Ρύθμιση τοποθεσίας</string>
+    <string name="PreferenceScreenGPS_title">Εμφάνισε την οθόνη ρυθμίσεων για το GPS</string>
+    <string name="PreferenceScreenGPS_summary">Εμφανίζει την οθόνη ρυθμίσεων του συστήματος για το GPS</string>
+</resources>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView_ShopDetails" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content" 
+    	android:stretchColumns="*">
+    	
+    	<!-- ADDRESS ROWS -->
+   		<TableRow 
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+   			<TextView  
+   				android:id="@+id/street_title_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="13.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+				android:paddingBottom="3.0px"
+			    android:layout_height="wrap_content" 
+			    android:textColor="@color/custom_text_white_color"
+			    android:text="@string/address"/>
+   		</TableRow>
+   		<TableRow
+   			android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+   			<TextView  
+   				android:id="@+id/street_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="12.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+			    android:textColor="@color/custom_text_white_color"
+			    android:layout_height="wrap_content" />
+   		</TableRow>
+   		<TableRow>
+		    <Spinner 
+		    	android:id="@+id/street_spinner_ShopDetailsActivity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+   		</TableRow>
+   		
+   		<!-- TELEPHONE N MOBILE ROWS -->
+    	<TableRow 
+    		android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+   			<TextView  
+   				android:id="@+id/telNmob_title_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="13.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+				android:paddingBottom="3.0px"
+				android:paddingTop="10.0px"
+			    android:layout_height="wrap_content" 
+			    android:textColor="@color/custom_text_white_color"
+			    android:text="@string/telNmob"/>
+   		</TableRow>
+   		<TableRow 
+    		android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+    		<TextView  
+   				android:id="@+id/telNmob_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="12.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+			    android:textColor="@color/custom_text_white_color"
+			    android:layout_height="wrap_content" />
+   		</TableRow>
+   		<TableRow>
+   			<Spinner 
+		    	android:id="@+id/telNmob_spinner_ShopDetailsActivity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:layout_gravity="center" />
+   		</TableRow>
+   		
+   		<!-- FAX ROWS -->
+   		<TableRow 
+    		android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+   			<TextView  
+   				android:id="@+id/fax_title_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="13.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+				android:paddingBottom="3.0px"
+				android:paddingTop="10.0px"
+			    android:layout_height="wrap_content" 
+			    android:textColor="@color/custom_text_white_color"
+			    android:text="@string/fax"/>
+   		</TableRow>
+   		<TableRow 
+    		android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+    		<TextView  
+   				android:id="@+id/fax_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="12.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+			    android:textColor="@color/custom_text_white_color"
+			    android:layout_height="wrap_content" />
+   		</TableRow>
+   		<TableRow>
+   			<Spinner 
+		    	android:id="@+id/fax_spinner_ShopDetailsActivity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:layout_gravity="center" />
+   		</TableRow>
+   		
+   		<!-- WEBSITE ROWS -->
+   		<TableRow 
+    		android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+   			<TextView  
+   				android:id="@+id/site_title_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="13.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+				android:paddingBottom="3.0px"
+				android:paddingTop="10.0px"
+			    android:layout_height="wrap_content" 
+			    android:textColor="@color/custom_text_white_color"
+			    android:text="@string/site"/>
+   		</TableRow>
+   		<TableRow 
+    		android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+    		<TextView  
+   				android:id="@+id/site_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="12.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+			    android:textColor="@color/custom_text_white_color"
+			    android:layout_height="wrap_content" />
+   		</TableRow>
+   		<TableRow>
+   			<Spinner 
+		    	android:id="@+id/site_spinner_ShopDetailsActivity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:layout_gravity="center" />
+   		</TableRow>
+   		
+   		<!-- E-MAIL -->
+   		<TableRow 
+    		android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+   			<TextView  
+   				android:id="@+id/email_title_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="13.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+				android:paddingBottom="3.0px"
+				android:paddingTop="10.0px"
+			    android:layout_height="wrap_content" 
+			    android:textColor="@color/custom_text_white_color"
+			    android:text="@string/email"/>
+   		</TableRow>
+   		<TableRow 
+    		android:layout_height="wrap_content" 
+    		android:baselineAligned="false">
+    		<TextView  
+   				android:id="@+id/email_textView_ShopDetailsActivity"
+			    android:layout_width="fill_parent"
+			    android:layout_gravity="center"
+			    android:textSize="12.0px"
+				android:paddingLeft="2.0px"
+				android:paddingRight="3.0px"
+			    android:textColor="@color/custom_text_white_color"
+			    android:layout_height="wrap_content" />
+   		</TableRow>
+   		<TableRow>
+   			<Spinner 
+		    	android:id="@+id/email_spinner_ShopDetailsActivity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+			    android:layout_gravity="center" />
+   		</TableRow>
+   			<Button 
+		    	android:drawableTop="@drawable/exit" 
+		    	android:layout_width="wrap_content" 
+		    	android:layout_height="wrap_content" 
+		    	android:id="@+id/exitButton_ShopDetailsActivity"
+				android:paddingTop="10.0px"/>
+   		<TableRow>
+   		</TableRow>
+	</TableLayout>
+</ScrollView>

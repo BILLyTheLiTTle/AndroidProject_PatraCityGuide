@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Αυτοκίνητο / Ανταλλακτικά -->
+<shops>
+	<shop>
+		<name>Διαμαντής Α.Ε.</name>
+		<street>Αγίου Στεφάνου 90 - Πάτρα</street>
+		<tel>2610525273 , 2610523580</tel><!-- delimiters " , " " #*# " -->
+		<mob>Δε διατίθεται</mob>
+		<fax>2610523580</fax>
+		<site>Δε διατίθεται</site>
+		<email>d.diamadis@gmail.com</email>
+		<map>38.243453,21.76012</map>
+	</shop>
+</shops>

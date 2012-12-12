@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Αυτοκίνητο / Ανταλλακτικά -->
+<shops>
+	<shop>
+		<name>Test Name</name>
+		<street>Test Street 1 ### Test Street 2</street>
+		<tel>Tel-1-1 , Tel-1-2 ### Tel-2-1</tel><!-- delimiters " , " " ### " -->
+		<mob>Δε διατίθεται ### Δε διατίθεται</mob>
+		<fax>FAX-1-1 ### Δε διατίθεται</fax>
+		<site>Δε διατίθεται ### Site-2-1</site>
+		<email>Δε διατίθεται ### Email-2-1</email>
+		<map>38.243453,21.76012 ### 21.7601,38.243453</map>
+	</shop>
+</shops>

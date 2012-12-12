@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_shortcut"
+          android:title="@string/shortcut" />          
+    <item android:id="@+id/PatraCityGuideActivity_menu_settings"
+          android:title="@string/settings" />
+    <item android:id="@+id/PatraCityGuideActivity_menu_help"
+          android:title="@string/help" />
+    <item android:id="@+id/PatraCityGuideActivity_menu_more"
+          android:title="@string/more" >
+          <menu>
+          <!-- The following commands search in all categories & subcategories -->
+          	<item android:id="@+id/PatraCityGuideActivity_menu_find"
+          		  android:title="@string/find" />
+		    <item android:id="@+id/PatraCityGuideActivity_menu_nearest_shops"
+		          android:title="@string/nearest_shops" />
+		    <item android:id="@+id/PatraCityGuideActivity_menu_favorite_shops"
+		          android:title="@string/favorite_shops" />
+          </menu>
+    </item>
+</menu>

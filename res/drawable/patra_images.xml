@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/arxaio_wdeio" android:duration="2000" />
+    <item android:drawable="@drawable/faros" android:duration="2000" />
+    <item android:drawable="@drawable/gefyra" android:duration="2000" />
+    <item android:drawable="@drawable/hliobasilema" android:duration="2000" />
+    <item android:drawable="@drawable/plateia_gewrgiou" android:duration="2000" />
+    <item android:drawable="@drawable/roloi" android:duration="2000" />
+</animation-list>
